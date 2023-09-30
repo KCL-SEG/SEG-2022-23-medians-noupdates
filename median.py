@@ -14,8 +14,9 @@ while True:
 
 median = int((len(numbers)-1) /2)
 
-if len(numbers)%2 == 1:  
-    print(int(numbers[median]))   
+if len(numbers)%2 == 1: 
+    med = int(numbers[median])
+    print(float(med))   
 else: 
     print((numbers[median]+numbers[median+1])/2)
 
