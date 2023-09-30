@@ -12,6 +12,8 @@ while True:
     else:
         break
 
+numbers.sort()
+
 median = int((len(numbers)-1) /2)
 
 if len(numbers)%2 == 1: 
